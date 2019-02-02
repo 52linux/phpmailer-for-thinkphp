@@ -2,7 +2,7 @@
 
 放入TP5.0的extend目录
 调用方法
-'''
+```
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 $mail = new PHPMailer(true);
@@ -43,4 +43,4 @@ try {
     echo '邮件发送失败。<br>';
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 }
-'''
+```
